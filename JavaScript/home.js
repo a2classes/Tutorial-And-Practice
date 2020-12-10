@@ -83,20 +83,33 @@ this function will take your name and then display your name with a Hello in fro
 
 // data types
 
-let yourAge = 22;                           //number
-let yourName = 'Abhishek Dam';              //string
-let name = { first: "abhsihek", last: "dam" };//object
-let truth = false;                          //boolean
-let groceries = ['Apple', 'Potato', 'Doritos'];//array
-let random;                                 //undefined
-let nothing = null;                          //value null
+let yourAge = 22; //number
+let yourName = "Abhishek Dam"; //string
+let name = { first: "abhsihek", last: "dam" }; //object
+let truth = false; //boolean
+let groceries = ["Apple", "Potato", "Doritos"]; //array
+let random; //undefined
+let nothing = null; //value null
 
 //stringts in javascript
 
 let fruit = "apple, banana, orange, berry";
-let newFruit = "banana\napple"              //new line
-console.log(fruit);
-console.log(newFruit);
+let veg = "tomato, potato";
+let newFruit = "banana\napple"; //new line
+// console.log(fruit);
+// console.log(newFruit);
 
+// console.log(fruit.length);
+// console.log(newFruit.indexOf(""));
+// console.log(fruit.indexOf("pp"));
+// console.log(veg.indexOf(","));
+// console.log(veg.slice(0, 2));
+// console.log(veg.replace("to", "po"));
+// console.log(veg.replace("to", "po"));
+// console.log(veg.toUpperCase());
+// console.log(veg.toLowerCase());
+// console.log(veg.charAt(2));
+// console.log(veg[3]);
+// console.log(fruit.split(','));  //split by coma and converts it into an array
+// console.log(fruit.split(''));   //split by char and converts it into an array
 
-console.log(fruit.length);
