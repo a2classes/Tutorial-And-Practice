@@ -115,25 +115,25 @@ let nothing = null; //value null
 
 // Arrays in javascript
 
-let fruit = [
-  "apple",
-  "oranges",
-  "pineapple",
-  "dragon-fruit",
-  "mango",
-  "berry",
-  "kiwi",
-];
+// let fruit = [
+//   "apple",
+//   "oranges",
+//   "pineapple",
+//   "dragon-fruit",
+//   "mango",
+//   "berry",
+//   "kiwi",
+// ];
 
-fruits = new Array(
-  "banana",
-  "chiku",
-  "watermelon",
-  "blueberry",
-  "melon",
-  "papaya",
-  "sugarcane"
-);
+// fruits = new Array(
+//   "banana",
+//   "chiku",
+//   "watermelon",
+//   "blueberry",
+//   "melon",
+//   "papaya",
+//   "sugarcane"
+// );
 
 // console.log(fruit[5]);
 // console.log(fruits[5]);
@@ -154,19 +154,64 @@ fruits = new Array(
 //   fruit.join(" - ")
 // );
 
-console.log(fruit.pop(), fruit); //delets last item
-console.log(fruit.push("stop thinking"), fruit); //appends item in the last
-console.log(fruit.shift()); //removes the first element
-console.log(fruit);
-console.log(fruit.unshift("get over it")); //adds item in the begining
-console.log(fruit);
+// console.log(fruit.pop(), fruit); //delets last item
+// console.log(fruit.push("stop thinking"), fruit); //appends item in the last
+// console.log(fruit.shift()); //removes the first element
+// console.log(fruit);
+// console.log(fruit.unshift("get over it")); //adds item in the begining
+// console.log(fruit);
 
-//adding two arrays togather
-let shoppingList = fruit.concat(fruits);
-console.log(shoppingList);
+// //adding two arrays togather
+// let shoppingList = fruit.concat(fruits);
+// console.log(shoppingList);
 
-console.log(shoppingList.reverse());
+// console.log(shoppingList.reverse());
 
-let someNumber = [3, 2, 6, 7, 57, 323, 3, 78, 9, 9, 568, 4, 9];
+// let someNumber = [3, 2, 6, 7, 57, 323, 3, 78, 9, 9, 568, 4, 9];
 
-console.log(someNumber.sort());
+// //sorting array ascending order
+// console.log(
+//   someNumber.sort(function (a, b) {
+//     return a - b;
+//   })
+// );
+
+// //sorting in decending order
+// console.log(
+//   someNumber.sort(function (a, b) {
+//     return b - a;
+//   })
+// );
+
+// let emptyArray = new Array();
+// for (let a = 0; a < 10; a++) {
+//   emptyArray.push(a);
+// }
+// console.log(emptyArray);
+// //OR
+// let fan = [];
+// for (let a = 0; a < 10; a++) {
+//   fan.push(a);
+// }
+// console.log(fan);
+
+//Objects in JavaScript
+
+// let application = {
+//   firstName: "Abhishek",
+//   lastName: "Dam",
+//   age: 22,
+//   height: 168,
+//   studentInfo: function () {
+//     //OOP here
+//     return this.firstName + "\n" + this.lastName;
+//   },
+// };
+// console.log(application.firstName);
+// console.log(application.lastName);
+// application.firstName = "Nikita"; //changing value
+// console.log(application.firstName);
+// console.log(application.age);
+// application.age++; //updating value
+// console.log(application.age);
+// console.log(application.studentInfo()); //calling that local function
