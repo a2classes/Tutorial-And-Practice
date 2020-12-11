@@ -93,9 +93,9 @@ let nothing = null; //value null
 
 //stringts in javascript
 
-let fruit = "apple, banana, orange, berry";
-let veg = "tomato, potato";
-let newFruit = "banana\napple"; //new line
+// let fruit = "apple, banana, orange, berry";
+// let veg = "tomato, potato";
+// let newFruit = "banana\napple"; //new line
 // console.log(fruit);
 // console.log(newFruit);
 
@@ -113,3 +113,60 @@ let newFruit = "banana\napple"; //new line
 // console.log(fruit.split(','));  //split by coma and converts it into an array
 // console.log(fruit.split(''));   //split by char and converts it into an array
 
+// Arrays in javascript
+
+let fruit = [
+  "apple",
+  "oranges",
+  "pineapple",
+  "dragon-fruit",
+  "mango",
+  "berry",
+  "kiwi",
+];
+
+fruits = new Array(
+  "banana",
+  "chiku",
+  "watermelon",
+  "blueberry",
+  "melon",
+  "papaya",
+  "sugarcane"
+);
+
+// console.log(fruit[5]);
+// console.log(fruits[5]);
+
+// fruit[5] = "pear";
+// console.log(fruit[5]);
+
+// for (let i = 0; i < fruit.length; i++) {
+//   console.log(fruit[i]);
+// }
+
+// array common methods
+
+// console.log("converts any array into string :-", fruit.toString());
+
+// console.log(
+//   "joins the array with anything in the parenthesis :-",
+//   fruit.join(" - ")
+// );
+
+console.log(fruit.pop(), fruit); //delets last item
+console.log(fruit.push("stop thinking"), fruit); //appends item in the last
+console.log(fruit.shift()); //removes the first element
+console.log(fruit);
+console.log(fruit.unshift("get over it")); //adds item in the begining
+console.log(fruit);
+
+//adding two arrays togather
+let shoppingList = fruit.concat(fruits);
+console.log(shoppingList);
+
+console.log(shoppingList.reverse());
+
+let someNumber = [3, 2, 6, 7, 57, 323, 3, 78, 9, 9, 568, 4, 9];
+
+console.log(someNumber.sort());
